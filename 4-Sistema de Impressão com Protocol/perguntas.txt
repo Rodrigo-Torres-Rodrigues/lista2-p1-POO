@@ -1,0 +1,11 @@
+Onde está o contrato nesse caso?
+o contrato está no processar_impressão juntamente com a classe protocolo imprimivel
+
+Por que as classes podem funcionar sem herdar explicitamente do protocolo?
+Por que todas elas tem um método que o protocolo exige, no caso, imprimir()
+
+Esse caso se aproxima mais de ABC ou de duck typing?
+duck typing, por que, se haje como pato, anda como pato, então é, para todos os efeitos, um pato. E, já que o método será executado sempre que o objeto tiver tal método sem herdar de uma classe, se aproxima mais de protocolo
+
+Qual a principal diferença entre esse caso e o da Questão 1?
+não estamos usando uma classe pai para as classes, ao invés disso, assumimos que todas as classes tenham o método imprimir já que chamamos tal método das classes a partir de processar_impressão
